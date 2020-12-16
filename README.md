@@ -9,7 +9,7 @@ def create_particle(num):
     return [random.randint(0,5) for _ in range(data['Nvar'])]
 
 ## 改寫適應度函數
-```
+```python
 def cal_fit(solution, data):
     total = 0
     for i in range(data['Nvar']):    
