@@ -18,6 +18,21 @@ def cal_fit(solution, data):
         total+= solution[i]
     return total 
 ```
+## 改寫更新機制
+```python
+def step_wise_function(self, x, px, gbest, Cp, Cg, Cw):
+    for var, value in enumerate(x):
+        rnd_dot = random.random()
+        if(rnd_dot < Cp):
+            x[var] = px[var]
+        if(rnd_dot < Cg):
+            x[var] = gbest[var]
+        elif(rnd_dot < Cw):
+            continue
+        else:
+           x[var] = random.randint(0,5)
+    return x
+```
 ## 初始化
 ```python
 sso = SSO(data, 5,100)//SSO(data, 母群體個數, 世代數)
