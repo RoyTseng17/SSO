@@ -9,12 +9,13 @@ def create_particle(num):
     return [random.randint(0,5) for _ in range(data['Nvar'])]
 
 ## 改寫適應度函數
+```
 def cal_fit(solution, data):
     total = 0
     for i in range(data['Nvar']):    
         total+= solution[i]
     return total 
-    
+```
 ## 初始化
 sso = SSO(data, 5,100)//SSO(data, 母群體個數, 世代數)
 
