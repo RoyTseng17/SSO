@@ -40,7 +40,8 @@ def step_wise_function(data, x, px, gbest, Cp, Cg, Cw):
 ```
 ## 初始化
 ```python
-sso = SSO(data, 5,100)//SSO(data, 母群體個數, 世代數)
+#SSO(data, 母群體個數, 世代數)
+sso = SSO(data, 5,100)
 ```
 ## 替代原本function
 ```python
