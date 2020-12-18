@@ -2,7 +2,8 @@
 SSO (Simplified Swarm Optimization) is proposed by Yeh in 2009 [1]. It is one of the novel swarm intelligence algorithms. It features simplicity, efficiency and flexibility for modification.
 
 ## SSO 更新機制
-<img src="https://latex.codecogs.com/png.latex? \begin{equation}\LARGE X_{t+1,i,j}=\left\{\begin{array}{lr}p\small_{gBest,j} \LARGE\  \ \  if\ \rho_{[0,1]}\epsilon [0,C_g)\\p\small_{i,j} \LARGE\  \ \ \ \ \ if\ \rho_{[0,1]}\epsilon [C_g,C_p)\\x\small_{t,i,j} \LARGE\  \ \ \ \  if\ \rho_{[0,1]}\epsilon [Cp,C_w)\\x\small_{gBest,j} \LARGE\  \ \  if\ \rho_{[0,1]}\epsilon [Cw,1]\\\end{array}\right.\end{equation}">
+![](http://latex.codecogs.com/svg.latex?\begin{equation}\LARGE X_{t+1,i,j}=\left\{\begin{array}{lr}p\small_{gBest,j} \LARGE\  \ \  if\ \rho_{[0,1]}\epsilon [0,C_g)\\p\small_{i,j} \LARGE\  \ \ \ \ \ if\ \rho_{[0,1]}\epsilon [C_g,C_p)\\x\small_{t,i,j} \LARGE\  \ \ \ \  if\ \rho_{[0,1]}\epsilon [Cp,C_w)\\x\small_{gBest,j} \LARGE\  \ \  if\ \rho_{[0,1]}\epsilon [Cw,1]\\\end{array}\right.\end{equation})
+
 ![](https://i.imgur.com/RYayQ1m.png)
 
 [1] Yeh, W.-C. (2009). A two-stage discrete particle swarm optimization for the problem of multiple multi-level redundancy allocation in series systems. Expert Systems with Applications, 36(5), 9192–9200. 
