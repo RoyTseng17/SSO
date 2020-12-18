@@ -3,7 +3,7 @@ setup(
     name = 'SSO',
     packages = ['SSO','Algorithm'],
     scripts = [],
-    version = '0.0.2.R4',
+    version = '0.0.2.R5',
     description = 'Simplified Swarm Optimization',
     long_description = "Documentation https://github.com/RoyTseng17/SSO/blob/main/README.md",
 

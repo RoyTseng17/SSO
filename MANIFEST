@@ -3,4 +3,6 @@ setup.cfg
 setup.py
 Algorithm\Particle.py
 Algorithm\Tools.py
+Algorithm\__init__.py
 SSO\SSO.py
+SSO\__init__.py
