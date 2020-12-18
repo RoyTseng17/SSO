@@ -54,7 +54,7 @@ sso.step_wise_function = step_wise_function
 sso.run()
 ```
 
-## Copy this and run!
+## Just copy this and run!
 
 ```python
 #改寫初始解產生方式
