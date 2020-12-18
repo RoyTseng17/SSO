@@ -2,6 +2,7 @@
 SSO (Simplified Swarm Optimization) is proposed by Yeh in 2009 [1]. It is one of the novel swarm intelligence algorithms. It features simplicity, efficiency and flexibility for modification.
 
 ## SSO 更新機制
+<a href="https://www.codecogs.com/eqnedit.php?latex=\begin{equation}\LARGE&space;X_{t&plus;1,i,j}=\left\{\begin{array}
 ![](https://i.imgur.com/RYayQ1m.png)
 
 [1] Yeh, W.-C. (2009). A two-stage discrete particle swarm optimization for the problem of multiple multi-level redundancy allocation in series systems. Expert Systems with Applications, 36(5), 9192–9200. 
