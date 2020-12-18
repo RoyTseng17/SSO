@@ -2,7 +2,8 @@
 SSO (Simplified Swarm Optimization) is proposed by Yeh in 2009 [1]. It is one of the novel swarm intelligence algorithms. It features simplicity, efficiency and flexibility for modification.
 
 ## SSO 更新機制
-<img src="http://chart.googleapis.com/chart?cht=tx&chl= \Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" style="border:none;">
+![](http://latex.codecogs.com/gif.latex?\\sigma=\sqrt{\frac{1}{n}{\sum_{k=1}^n(x_i-\bar{x})^2}})
+
 
 ![](https://i.imgur.com/RYayQ1m.png)
 
