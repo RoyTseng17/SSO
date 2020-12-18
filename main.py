@@ -10,8 +10,8 @@ import random
 
 
 #改寫初始解產生方式
-def create_particle(num):
-    return [random.randint(0,5) for _ in range(data['Nvar'])]
+def create_particle(data):
+    return [random.randint(0,data['UB']) for _ in range(data['Nvar'])]
 
 #改寫適應度函數
 def cal_fit(solution, data):
@@ -21,7 +21,7 @@ def cal_fit(solution, data):
     return total 
 
 #自行設定資料格式
-data = {'Nvar':10} 
+data = {'Nvar':10, 'UB':7} 
 #SSO(data, 母群體個數, 世代數)
 sso = SSO(data, 5,100)
 #替代原本function
