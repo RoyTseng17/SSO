@@ -53,8 +53,16 @@ sso.step_wise_function = step_wise_function
 ```python
 sso.run()
 ```
-
 ## Just copy this and run!
+```python
+from SSO.SSO import SSO
+
+data = {'Nvar':10,'UB':5} 
+#SSO(data, 母群體個數, 世代數)
+sso = SSO(data, 10,200)
+sso.run()
+```
+## 平行機台問題
 
 ```python
 from SSO.SSO import SSO
