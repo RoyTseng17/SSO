@@ -85,8 +85,10 @@ def step_wise_function(data, x, px, gbest, Cp, Cg, Cw):
         else:
            x[var] = random.randint(0,data['Nmc']-1)
     return x
-timeMatrix = np.random.randint(100,500, size = (30, 100))
-data = {'Nvar':10, 'timeMatrix':timeMatrix, 'Nmc':30, 'Ntask':100} 
+    
+data = {'Nvar':10,'Nmc':30, 'Ntask':100} 
+timeMatrix = np.random.randint(100,500, size = (data['Nmc'], data['Ntask']))
+data['timeMatrix'] = timeMatrix
 
 #SSO(data, 母群體個數, 世代數)
 sso = SSO(data, 10,200)
