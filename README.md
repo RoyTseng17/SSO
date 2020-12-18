@@ -44,7 +44,7 @@ sso = SSO(data, 5,100)//SSO(data, 母群體個數, 世代數)
 ```
 ## 替代原本function
 ```python
-sso.create_particle = cr7eate_particle
+sso.create_particle = create_particle
 sso.cal_fit = cal_fit
 sso.step_wise_function = step_wise_function
 ```
